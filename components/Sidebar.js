@@ -1,21 +1,11 @@
 const Sidebar = () => {
   return (
-    <div className="h-screen w-1/5 bg-gray-200">
-      <section>
-        <div>Connections</div>
-      </section>
-      <section>
-        <div>Favourites</div>
-      </section>
-      <section>
-        <div>Calendar</div>
-      </section>
-      <section>
-        <div>Notes</div>
-      </section>
-      <section>
-        <div>Trash</div>
-      </section>
+    <div className="h-screen w-1/5 bg-gray-200 p-10 flex flex-col space-y-10">
+      <div>Connections</div>
+      <div>Favourites</div>
+      <div>Calendar</div>
+      <div>Notes</div>
+      <div>Trash</div>
     </div>
   );
 };
