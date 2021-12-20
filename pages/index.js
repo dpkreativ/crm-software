@@ -20,7 +20,7 @@ export default function Home() {
           <p>A simple demo of a customer relationship management software</p>
         </section>
         <section className="text-center my-10">
-          <Link href="/" passHref>
+          <Link href="/dashboard" passHref>
             <a>
               <button className="bg-primary-100 px-5 py-3 rounded-2xl text-white font-semibold hover:bg-primary-200 hover:shadow">
                 View Demo
