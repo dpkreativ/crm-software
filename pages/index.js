@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-screen-lg mx-auto p-5 lg:p-10">
       <Head>
         <title>CRM Software</title>
         <meta name="description" content="CRM Software" />
