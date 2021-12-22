@@ -10,9 +10,9 @@ const Dashboard = () => {
 
       {/* Content */}
       <section className="w-4/5 relative flex">
-        <div className="h-screen w-1/3">
-          <div className="p-5 sticky top-0 bg-white h-1/5">
-            <div className="flex items-center mb-2 space-x-2">
+        <div className="h-screen w-1/3 overflow-y-scroll">
+          <div className="p-5 sticky top-0 z-10 shadow-sm bg-white">
+            <div className="flex items-center space-x-2">
               <div className="text-xs">
                 Note: This is a demo. Any numbers stored on this app will be
                 visible to everyone else.
@@ -24,8 +24,10 @@ const Dashboard = () => {
                 </button>
               </div>
             </div>
+          </div>
 
-            <div className="p-2 border-2 border-primary-100 rounded-xl hover:border-primary-200 hover:shadow">
+          <div>
+            <div className="mx-5 p-2 border-2 border-primary-100 rounded-xl hover:border-primary-200 hover:shadow">
               <input
                 type="search"
                 name="searchContact"
@@ -34,8 +36,6 @@ const Dashboard = () => {
                 className="outline-none w-full bg-transparent"
               />
             </div>
-          </div>
-          <div className="p-5 h-4/5 overflow-y-scroll">
             <ContactCard />
             <ContactCard />
             <ContactCard />
