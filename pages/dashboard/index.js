@@ -53,7 +53,7 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="h-screen w-2/3 p-5 overflow-y-scroll">
+        <div className="h-screen w-2/3 overflow-y-scroll">
           <ContactDetails />
         </div>
       </section>
