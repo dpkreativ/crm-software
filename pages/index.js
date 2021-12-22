@@ -14,7 +14,7 @@ export default function Home() {
       <main>
         <section className="text-center">
           <div className="h-60 lg:h-72 relative">
-            <Image src="/customer.svg" layout="fill" />
+            <Image src="/assets/customer.svg" layout="fill" />
           </div>
           <h1 className="font-bold text-4xl lg:text-6xl mb-5">CRM Software</h1>
           <p>A simple demo of a customer relationship management software</p>
