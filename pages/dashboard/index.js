@@ -1,4 +1,5 @@
 import ContactCard from "components/ContactCard";
+import ContactDetails from "components/ContactDetails";
 import { AddContact } from "components/Icons";
 import Sidebar from "components/Sidebar";
 
@@ -52,7 +53,9 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="h-screen w-2/3 p-5 overflow-y-scroll"></div>
+        <div className="h-screen w-2/3 p-5 overflow-y-scroll">
+          <ContactDetails />
+        </div>
       </section>
     </div>
   );
