@@ -36,7 +36,7 @@ const Dashboard = () => {
                 className="outline-none w-full bg-transparent"
               />
             </div>
-            <ContactCard />
+            <ContactCard favourite={true} />
             <ContactCard />
             <ContactCard />
             <ContactCard />
