@@ -60,52 +60,52 @@ const ContactDetails = ({
 
       {/* Notes */}
       <section className="grid grid-cols-3 gap-3 p-5">
-        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note 1
         </div>
-        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-100 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
-        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-primary-100 cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
+        <div className="p-5 bg-gray-200 rounded-2xl border-2 border-white cursor-pointer hover:border-primary-200 hover:shadow hover:bg-primary-200 hover:text-white">
           This is a note
         </div>
       </section>
