@@ -1,8 +1,8 @@
-export const UserCircle = () => {
+export const UserCircle = ({ width = "24", height = "24" }) => {
   return (
     <svg
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -15,11 +15,11 @@ export const UserCircle = () => {
   );
 };
 
-export const HeartOutline = () => {
+export const HeartOutline = ({ width = "24", height = "24" }) => {
   return (
     <svg
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -32,11 +32,11 @@ export const HeartOutline = () => {
   );
 };
 
-export const HeartFill = () => {
+export const HeartFill = ({ width = "24", height = "24" }) => {
   return (
     <svg
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -49,11 +49,11 @@ export const HeartFill = () => {
   );
 };
 
-export const Calendar = () => {
+export const Calendar = ({ width = "24", height = "24" }) => {
   return (
     <svg
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -66,11 +66,11 @@ export const Calendar = () => {
   );
 };
 
-export const Note = () => {
+export const Note = ({ width = "24", height = "24" }) => {
   return (
     <svg
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -83,11 +83,11 @@ export const Note = () => {
   );
 };
 
-export const Trash = () => {
+export const Trash = ({ width = "24", height = "24" }) => {
   return (
     <svg
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -100,17 +100,68 @@ export const Trash = () => {
   );
 };
 
-export const AddContact = () => {
+export const AddContact = ({ width = "24", height = "24" }) => {
   return (
     <svg
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M4 19H2C2 15.6863 4.68629 13 8 13C11.3137 13 14 15.6863 14 19H12C12 16.7909 10.2091 15 8 15C5.79086 15 4 16.7909 4 19ZM19 16H17V13H14V11H17V8H19V11H22V13H19V16ZM8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8C11.9972 10.208 10.208 11.9972 8 12ZM8 6C6.9074 6.00111 6.01789 6.87885 6.00223 7.97134C5.98658 9.06383 6.85057 9.9667 7.94269 9.99912C9.03481 10.0315 9.95083 9.1815 10 8.09V8.49V8C10 6.89543 9.10457 6 8 6Z"
+        fill={"currentColor" || "#2E3A59"}
+      />
+    </svg>
+  );
+};
+
+export const PhoneOutline = ({ width = "24", height = "24" }) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8.74214 8.68189C7.66901 9.59373 7.27576 11.2567 8.20237 12.5908C9.06948 13.8392 10.1618 14.9313 11.4099 15.798C12.7441 16.7244 14.407 16.3311 15.3187 15.2579L15.3289 15.2626C16.4934 15.8021 17.7304 16.1718 19 16.3603V19L18.9989 19L18.9961 19C11.0215 19.0113 4.99148 12.9111 5.00001 5.00359V5H7.63937L7.63954 5.00117C7.828 6.27065 8.19761 7.50654 8.73714 8.67108L8.74214 8.68189ZM18.9989 21H20C20.5523 21 21 20.5523 21 20V15.4977C21 15.0021 20.637 14.5813 20.1468 14.5086L19.2926 14.3818C18.2123 14.2215 17.1605 13.9069 16.1695 13.4478L15.4166 13.0991C14.9804 12.897 14.462 13.034 14.1826 13.4253L13.8418 13.9024C13.5431 14.3206 12.9728 14.4484 12.5506 14.1552C11.4984 13.4245 10.5761 12.5024 9.84502 11.4499C9.55181 11.0277 9.67955 10.4574 10.0978 10.1587L10.5748 9.81807C10.9661 9.53861 11.1031 9.02021 10.901 8.5839L10.5518 7.83033C10.0927 6.8394 9.77823 5.78774 9.61786 4.70749L9.49104 3.85316C9.41827 3.36296 8.99745 3 8.50188 3H4.00001C3.44773 3 3.00001 3.44772 3.00001 4V5.00143C2.99029 14.0079 9.91023 21.0129 18.9989 21Z"
+        fill={"currentColor" || "#2E3A59"}
+      />
+    </svg>
+  );
+};
+
+export const Mail = ({ width = "24", height = "24" }) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20 20H4C2.89543 20 2 19.1046 2 18V5.913C2.04661 4.84255 2.92853 3.99899 4 4H20C21.1046 4 22 4.89543 22 6V18C22 19.1046 21.1046 20 20 20ZM4 7.868V18H20V7.868L12 13.2L4 7.868ZM4.8 6L12 10.8L19.2 6H4.8Z"
+        fill={"currentColor" || "#2E3A59"}
+      />
+    </svg>
+  );
+};
+
+export const Edit = ({ width = "24", height = "24" }) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7 21H5V19H2V17H5V15H7V21ZM22 19H9V17H22V19ZM17 15H15V13H2V11H15V9.012H17V15ZM22 13H19V11H22V13ZM11 9H9V7H2V5H9V3H11V9ZM22 7H13V5H22V7Z"
         fill={"currentColor" || "#2E3A59"}
       />
     </svg>
