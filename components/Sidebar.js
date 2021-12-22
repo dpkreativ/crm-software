@@ -2,13 +2,11 @@ import Link from "next/link";
 import { useState } from "react";
 import { Calendar, HeartOutline, Note, Trash, UserCircle } from "./Icons";
 
-const Sidebar = ({ active = 1, className }) => {
+const Sidebar = ({ active = 1 }) => {
   const [isActive, setIsActive] = useState(active);
 
   return (
-    <section
-      className={`h-full w-1/5 p-10 flex flex-col space-y-7 bg-red-200 ${className}`}
-    >
+    <section className="h-screen w-1/5 p-10 flex flex-col space-y-7">
       <Link href="/dashboard" passHref>
         <a>
           <div
