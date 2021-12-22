@@ -12,7 +12,7 @@ const Sidebar = ({ active = 1 }) => {
           <div
             className={`${
               isActive === 1
-                ? "shadow-md bg-primary-100 text-white font-semibold"
+                ? "shadow-md bg-primary-100 text-white font-semibold hover:bg-primary-200"
                 : ""
             } flex space-x-3 p-2 rounded-xl hover:cursor-pointer hover:shadow`}
             onClick={() => setIsActive(1)}
@@ -29,7 +29,7 @@ const Sidebar = ({ active = 1 }) => {
           <div
             className={`${
               isActive === 2
-                ? "shadow-md bg-primary-100 text-white font-semibold"
+                ? "shadow-md bg-primary-100 text-white font-semibold hover:bg-primary-200"
                 : ""
             } flex space-x-3 p-2 rounded-xl hover:cursor-pointer hover:shadow`}
             onClick={() => setIsActive(2)}
@@ -46,7 +46,7 @@ const Sidebar = ({ active = 1 }) => {
           <div
             className={`${
               isActive === 3
-                ? "shadow-md bg-primary-100 text-white font-semibold"
+                ? "shadow-md bg-primary-100 text-white font-semibold hover:bg-primary-200"
                 : ""
             } flex space-x-3 p-2 rounded-xl hover:cursor-pointer hover:shadow`}
             onClick={() => setIsActive(3)}
@@ -63,7 +63,7 @@ const Sidebar = ({ active = 1 }) => {
           <div
             className={`${
               isActive === 4
-                ? "shadow-md bg-primary-100 text-white font-semibold"
+                ? "shadow-md bg-primary-100 text-white font-semibold hover:bg-primary-200"
                 : ""
             } flex space-x-3 p-2 rounded-xl hover:cursor-pointer hover:shadow`}
             onClick={() => setIsActive(4)}
@@ -80,7 +80,7 @@ const Sidebar = ({ active = 1 }) => {
           <div
             className={`${
               isActive === 5
-                ? "shadow-md bg-primary-100 text-white font-semibold"
+                ? "shadow-md bg-primary-100 text-white font-semibold hover:bg-primary-200"
                 : ""
             } flex space-x-3 p-2 rounded-xl hover:cursor-pointer hover:shadow`}
             onClick={() => setIsActive(5)}
