@@ -20,3 +20,5 @@ class MainDocument extends Document {
     );
   }
 }
+
+export default MainDocument;
