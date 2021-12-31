@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Edit, HeartOutline, Mail, Note, PhoneOutline } from "./Icons";
+import { Edit, HeartOutline, Mail, Note, PhoneOutline } from "./atoms/Icons";
+import ProfileImage from "./atoms/ProfileImage";
 
 const ContactDetails = ({
   imageUrl = "/assets/image.png",
@@ -13,9 +14,7 @@ const ContactDetails = ({
         {/* Info */}
         <section className="flex space-x-5 items-center w-full">
           <div className="w-1/5">
-            <div className="w-32 h-32 rounded-full overflow-hidden relative border-primary-100 border-4">
-              <Image src={imageUrl} layout="fill" objectFit="cover" />
-            </div>
+            <ProfileImage url={imageUrl} large border />
           </div>
           <div className="flex flex-col space-y-2 w-4/5">
             <div className="flex space-x-10 items-baseline">
