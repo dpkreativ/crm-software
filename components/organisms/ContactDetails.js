@@ -1,6 +1,5 @@
-import Image from "next/image";
-import { Edit, HeartOutline, Mail, Note, PhoneOutline } from "./atoms/Icons";
-import ProfileImage from "./atoms/ProfileImage";
+import { Edit, HeartOutline, Mail, Note, PhoneOutline } from "../atoms/Icons";
+import ProfileImage from "../atoms/ProfileImage";
 
 const ContactDetails = ({
   imageUrl = "/assets/image.png",

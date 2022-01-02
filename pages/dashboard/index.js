@@ -1,5 +1,5 @@
 import DashboardTemplate from "@/templates/DashboardTemplate";
-import ContactDetails from "components/ContactDetails";
+import ContactDetails from "@/organisms/ContactDetails";
 import { AddContact } from "@/atoms/Icons";
 import Search from "@/atoms/Search";
 import Button from "@/atoms/Button";
